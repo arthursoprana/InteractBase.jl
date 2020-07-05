@@ -1,0 +1,51 @@
+[[jsbundle]]
+arch = "i686"
+git-tree-sha1 = "818dbf692daf06a80a4bc9fa3a22355b3397ae61"
+os = "windows"
+
+    [[jsbundle.download]]
+    sha256 = "3d71be67cbe17e58a5624505b03d29a6100899b3b35ee6ff653707cb514eebee"
+    url = "https://github.com/arthursoprana/InteractBase.jl/releases/download/v0.10.6/jsbundle.tar.gz"
+[[jsbundle]]
+arch = "x86_64"
+git-tree-sha1 = "818dbf692daf06a80a4bc9fa3a22355b3397ae61"
+os = "windows"
+
+    [[jsbundle.download]]
+    sha256 = "3d71be67cbe17e58a5624505b03d29a6100899b3b35ee6ff653707cb514eebee"
+    url = "https://github.com/arthursoprana/InteractBase.jl/releases/download/v0.10.6/jsbundle.tar.gz"
+[[jsbundle]]
+arch = "x86_64"
+git-tree-sha1 = "5287608097815dec7e382cd03904fa9cf5a6ac29"
+os = "macos"
+
+    [[jsbundle.download]]
+    sha256 = "3d71be67cbe17e58a5624505b03d29a6100899b3b35ee6ff653707cb514eebee"
+    url = "https://github.com/arthursoprana/InteractBase.jl/releases/download/v0.10.6/jsbundle.tar.gz"
+[[jsbundle]]
+arch = "i686"
+git-tree-sha1 = "5287608097815dec7e382cd03904fa9cf5a6ac29"
+libc = "glibc"
+os = "linux"
+
+    [[jsbundle.download]]
+    sha256 = "3d71be67cbe17e58a5624505b03d29a6100899b3b35ee6ff653707cb514eebee"
+    url = "https://github.com/arthursoprana/InteractBase.jl/releases/download/v0.10.6/jsbundle.tar.gz"
+[[jsbundle]]
+arch = "x86_64"
+git-tree-sha1 = "5287608097815dec7e382cd03904fa9cf5a6ac29"
+libc = "glibc"
+os = "linux"
+
+    [[jsbundle.download]]
+    sha256 = "3d71be67cbe17e58a5624505b03d29a6100899b3b35ee6ff653707cb514eebee"
+    url = "https://github.com/arthursoprana/InteractBase.jl/releases/download/v0.10.6/jsbundle.tar.gz"
+[[jsbundle]]
+arch = "aarch64"
+git-tree-sha1 = "5287608097815dec7e382cd03904fa9cf5a6ac29"
+libc = "glibc"
+os = "linux"
+
+    [[jsbundle.download]]
+    sha256 = "3d71be67cbe17e58a5624505b03d29a6100899b3b35ee6ff653707cb514eebee"
+    url = "https://github.com/arthursoprana/InteractBase.jl/releases/download/v0.10.6/jsbundle.tar.gz"
