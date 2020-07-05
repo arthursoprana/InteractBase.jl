@@ -61,6 +61,7 @@ import Widgets:
     onchange
 
 import Observables: throttle
+using Pkg.Artifacts
 
 export observe, Widget, widget
 
@@ -85,12 +86,13 @@ export slap_design!
 abstract type WidgetTheme<:Widgets.AbstractBackend; end
 struct NativeHTML<:WidgetTheme; end
 
-const font_awesome = joinpath(@__DIR__, "..", "assets", "all.js")
-const prism_js = joinpath(@__DIR__, "..", "assets", "prism.js")
-const prism_css = joinpath(@__DIR__, "..", "assets", "prism.css")
+const external_assets_path = artifact"jsbundle"
+const font_awesome = joinpath(external_assets_path, "all.js")
+const prism_js = joinpath(external_assets_path, "prism.js")
+const prism_css = joinpath(external_assets_path, "prism.css")
 const highlight_css = joinpath(@__DIR__, "..", "assets", "highlight.css")
-const nouislider_min_js = joinpath(@__DIR__, "..", "assets", "nouislider.min.js")
-const nouislider_min_css = joinpath(@__DIR__, "..", "assets", "nouislider.min.css")
+const nouislider_min_js = joinpath(external_assets_path, "nouislider.min.js")
+const nouislider_min_css = joinpath(external_assets_path, "nouislider.min.css")
 const style_css = joinpath(@__DIR__, "..", "assets", "style.css")
 
 include("classes.jl")

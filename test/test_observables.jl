@@ -219,8 +219,8 @@ end
     l[] == "\\sum_{i=1}^{12} e^i"
     @test observe(a)[] == l[]
 
-    @test isfile(joinpath(dirname(@__FILE__), "..", "assets", "prism.js"))
-    @test isfile(joinpath(dirname(@__FILE__), "..", "assets", "prism.css"))
+    @test isfile(joinpath(InteractBase.external_assets_path, "prism.js"))
+    @test isfile(joinpath(InteractBase.external_assets_path, "prism.css"))
 
     l = Observable("1+1+exp(2)")
     a = highlight(l)

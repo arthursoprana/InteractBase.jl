@@ -1,9 +1,9 @@
-font_awesome = joinpath(@__DIR__, "..", "assets", "all.js")
-prism_js = joinpath(@__DIR__, "..", "assets", "prism.js")
-prism_css = joinpath(@__DIR__, "..", "assets", "prism.css")
+font_awesome = joinpath(InteractBase.external_assets_path, "all.js")
+prism_js = joinpath(InteractBase.external_assets_path, "prism.js")
+prism_css = joinpath(InteractBase.external_assets_path, "prism.css")
 highlight_css = joinpath(@__DIR__, "..", "assets", "highlight.css")
-nouislider_min_js = joinpath(@__DIR__, "..", "assets", "nouislider.min.js")
-nouislider_min_css = joinpath(@__DIR__, "..", "assets", "nouislider.min.css")
+nouislider_min_js = joinpath(InteractBase.external_assets_path, "nouislider.min.js")
+nouislider_min_css = joinpath(InteractBase.external_assets_path, "nouislider.min.css")
 style_css = joinpath(@__DIR__, "..", "assets", "style.css")
 
 @testset "deps" begin

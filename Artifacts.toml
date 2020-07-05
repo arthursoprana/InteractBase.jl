@@ -1,0 +1,6 @@
+[jsbundle]
+git-tree-sha1 = "818dbf692daf06a80a4bc9fa3a22355b3397ae61"
+
+    [[jsbundle.download]]
+    sha256 = "b127e703b4f6d4f623caafbfaa274a84ebd94390ca2bd3409897f8a7735a68d6"
+    url = "https://github.com/arthursoprana/InteractBase.jl/releases/download/v0.10.6/jsbundle.tar.gz"
